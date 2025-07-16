@@ -12,7 +12,7 @@ public class AudiTest
 		
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.audi.in/in/web/en.html");
-Reporter.log("success",true);
+		Reporter.log("sucssfully launched",true);
 }
 
 

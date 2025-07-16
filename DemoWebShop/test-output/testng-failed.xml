@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ExtentReport.ToAddScrenshotIntoReport">
+      <class name="Cars.AudiTest">
         <methods>
-          <include name="addScreenshot"/>
+          <include name="launch"/>
         </methods>
-      </class> <!-- ExtentReport.ToAddScrenshotIntoReport -->
+      </class> <!-- Cars.AudiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
