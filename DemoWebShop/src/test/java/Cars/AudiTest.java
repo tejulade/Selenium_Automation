@@ -7,14 +7,12 @@ import org.testng.annotations.Test;
 
 public class AudiTest
 {
-	@Test(groups="smoke")
+	@Test
 	public void launch() {
 		
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.audi.in/in/web/en.html");
 		Reporter.log("sucssfully launched",true);
-
-
 }
 
 
